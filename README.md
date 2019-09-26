@@ -51,9 +51,13 @@ Run `ng g @nrwl/angular:lib my-lib` to generate a library.
 
 Libraries are sharable across libraries and applications. They can be imported from `@myorg/mylib`.
 
-## Development server
+## Start the front end
 
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `yarn start` or `npm start` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+## Start the api server
+
+Run `npm start api` or `yarn start api`
 
 ## Code scaffolding
 
@@ -74,6 +78,7 @@ Run `nx affected:test` to execute the unit tests affected by a change.
 Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
 
 Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+
 
 ## Understand your workspace
 
